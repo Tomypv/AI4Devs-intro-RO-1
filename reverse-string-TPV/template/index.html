@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reverse String - Ejercicio AI4Devs</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            margin-top: 30px;
+        }
+        input {
+            padding: 10px;
+            width: 80%;
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            display: none;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        .result {
+            margin-top: 20px;
+            font-size: 18px;
+            min-height: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Invertidor de Texto</h1>
+    <p>Escribe un texto y verás cómo se invierte automáticamente</p>
+    
+    <div class="container">
+        <input type="text" id="inputText" placeholder="Escribe algo (ej: AI4Devs)">
+        
+        <div class="result">
+            <p>Texto invertido: <strong id="reversedText"></strong></p>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
